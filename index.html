@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<title>Jose Rodrigues</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+
+<style>
+  body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>Jose Rodrigues</b></h1>
+  <p>ReMax New Millennium Group</p>
+  <img id="hotAir" src="./assets/images/balloon.png">
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Featured Listings & Email -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <div class="w3-container">
+      <h3 id= "listings"><b>Featured Listings</b></h3>
+    </div>
+
+    <div class="w3-container">
+     <img src="assets/images/4.jpg" class="listingImg">
+     <img src="assets/images/5.jpg" class="listingImg">
+     <img src="assets/images/6.jpg" class="listingImg">
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <input id="seeMore" class="w3-button w3-padding-large w3-white w3-border" type=button onClick="parent.open('http://www.newmillennium.remax-nj.com/remaxnj/index.asp?p=featuredproperties.asp')" value='SEE MORE >>' >
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+<!-- END Ft. Listings & email -->
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card-2 w3-margin w3-margin-top">
+  <img id= "profileImg"  src="./assets/images/profile.jpg" style="width:35%">
+    <div class="w3-container w3-white">
+      <!-- <h4><b>Jose Rodrigues</b></h4> -->
+      <p>Im Jose, how can i help? I'm a real estate agent with more then 10 years experience, helping people find a house to call home.</p>
+    </div>
+  </div><hr>
+  
+  <!-- Calendar -->
+  <div class="w3-card-2 w3-margin">
+   <iframe  id="calendar" src="https://calendar.google.com/calendar/embed?showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=350&amp;wkst=1&amp;bgcolor=%23ccccff&amp;src=eig5k1edq738l0jsf5bibmcvmo%40group.calendar.google.com&amp;color=%2342104A&amp;ctz=America%2FNew_York" style="border:solid 1px #777" width="400" height="350" frameborder="0" scrolling="no"></iframe>
+  </div>
+  <hr> 
+ 
+  
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey  w3-margin-top">
+ 
+  <div id="contact">
+    <ul id="list">
+      <li id="borderItems">908-400-5395</li>
+      <li id="borderItems">1042 N. Broad St Hillside, NJ</li>
+      <li>9084005395Jose@gmail.com</li>
+    </ul>
+  </div>
+</footer>
+
+<!-- js reference -->
+<script src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="assets/js/javascript.js"></script>
+
+</body>
+</html>
