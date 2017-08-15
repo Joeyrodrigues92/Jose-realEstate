@@ -210,7 +210,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-grey,.w3-hover-border-grey:hover,.w3-border-gray,.w3-hover-border-gray:hover{border-color:#bbb!important}
 
 /*custom style*/
-header{
+header {
 /*	background-image: url(./assets/images/balloon.png);
 	background-repeat: no-repeat;
 	background-size: 130px;
@@ -218,7 +218,7 @@ header{
 	background-color: white;
 }
 
-#hotAir{
+#hotAir {
 	position: absolute;
 	left: 100px;
 	top: 2px;
@@ -233,7 +233,7 @@ header{
     
 }
 
-b{
+b {
 	width: 500px;
 	margin: auto;
 }
@@ -270,10 +270,21 @@ b{
     margin-left: 400px;	
 }
 
-#borderItems{
+#borderItems {
 	border-right: 2px solid #999;
 	padding-right: 10px;
 }
+
 li{
 	margin:10px;
+}
+
+.listingImg {
+	width: 600px;
+	margin:auto;
+}
+
+@media only screen and (max-width: 1000px) {
+
+	.listingImg {width: 200px;}
 }
