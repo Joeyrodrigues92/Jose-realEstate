@@ -278,6 +278,8 @@ li{
 	margin:auto;
 }
 
+
+/*iphone 6 and 6+ screens*/
 @media only screen and (max-width: 1242px) {
 
 	.listingImg {width: 200px;}
@@ -286,6 +288,6 @@ li{
 	#hotAir {display: none;}
 	#list {margin-left: 0px;}
 	#borderItems {border-right: 2px solid #616161;}
-	#listings {margin-left: 10px;}
+	#listings {margin-left: 20px;}
 	#seeMore {margin-left: 48px;}
 }
