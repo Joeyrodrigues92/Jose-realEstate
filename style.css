@@ -281,11 +281,11 @@ li{
 @media only screen and (max-width: 1242px) {
 
 	.listingImg {width: 200px;}
-	#profileImg {margin-left: 60px;}
-	#calendar {width: 250px; }
+	#profileImg {margin-left: 70px;}
+	#calendar {width: 300px; }
 	#hotAir {display: none;}
 	#list {margin-left: 0px;}
 	#borderItems {border-right: 2px solid #616161;}
-	#listings {margin-left: 0px;}
+	#listings {margin-left: 10px;}
 	#seeMore {margin-left: 48px;}
 }
