@@ -283,7 +283,7 @@ li{
 @media only screen and (max-width: 1242px) {
 
 	.listingImg {width: 200px;}
-	#profileImg {margin-left: 70px;}
+	#profileImg {margin-left: 90px;}
 	#calendar {width: 300px; }
 	#hotAir {display: none;}
 	#list {margin-left: 0px;}
